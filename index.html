@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Model Viewer</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer@latest/dist/model-viewer.min.js"></script>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <model-viewer 
+        src="https://raw.githubusercontent.com/KaveenH2004/ar-model-viewer-2/main/Distinguished_Gentlem_0226160734_stylize.glb"
+        ar
+        auto-rotate
+        camera-controls
+        style="width: 100%; max-width: 600px; height: 500px;">
+    </model-viewer>
+</body>
+</html>
